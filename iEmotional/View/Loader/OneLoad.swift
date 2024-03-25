@@ -37,7 +37,7 @@ struct OneLoad: View {
                 .foregroundStyle(.white)
                 .fontWeight(.semibold)
                 .shadow(color: .black, radius: 5)
-            Text("tus emociones..")
+            Text("tus emociones...")
                 .font(.title)
                 .fontDesign(.monospaced)
                 .foregroundStyle(.white)
