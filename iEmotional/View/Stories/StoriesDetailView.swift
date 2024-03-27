@@ -20,6 +20,7 @@ struct StoriesDetailView: View {
                 .font(.largeTitle)
                 .fontDesign(.monospaced)
                 .fontWeight(.semibold)
+                .padding(.vertical)
             Text(story.text)
                 .foregroundStyle(.white)
                 .fontDesign(.monospaced)

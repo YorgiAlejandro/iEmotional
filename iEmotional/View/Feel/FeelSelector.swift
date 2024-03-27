@@ -15,12 +15,12 @@ struct FeelSelector: View {
                     NavigationLink{
                         StoriesList(typeOfFeel: FeelType.soHappy)
                     }label: {
-                        FeelCard(feelName: "Muy Feliz", feelImage: "😁")
+                        FeelCard(feelName: "Very Happy", feelImage: "😁")
                     }
                     NavigationLink{
                         StoriesList(typeOfFeel: FeelType.happy)
                     } label: {
-                        FeelCard(feelName: "Feliz", feelImage: "😀")
+                        FeelCard(feelName: "Happy", feelImage: "😀")
                     }
                 }
                 HStack{
@@ -32,19 +32,19 @@ struct FeelSelector: View {
                     NavigationLink {
                         StoriesList(typeOfFeel: FeelType.dislike)
                     } label: {
-                        FeelCard(feelName: "Desánimo", feelImage: "😒")
+                        FeelCard(feelName: "Discouraged", feelImage: "😒")
                     }
                 }
                 HStack{
                     NavigationLink {
                         StoriesList(typeOfFeel: FeelType.sad)
                     } label: {
-                        FeelCard(feelName: "Triste", feelImage: "🥺")
+                        FeelCard(feelName: "Sad", feelImage: "🥺")
                     }
                     NavigationLink {
                         StoriesList(typeOfFeel: FeelType.broken)
                     } label: {
-                        FeelCard(feelName: "Destrozado", feelImage: "😥")
+                        FeelCard(feelName: "Broken", feelImage: "😥")
                     }
                 }
             }.frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -52,7 +52,7 @@ struct FeelSelector: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar{
                     ToolbarItem(placement: .principal){
-                        Text("Como te sientes?")
+                        Text("How do you feel?")
                             .foregroundStyle(.white.opacity(0.9))
                             .font(.title)
                             .fontDesign(.monospaced)

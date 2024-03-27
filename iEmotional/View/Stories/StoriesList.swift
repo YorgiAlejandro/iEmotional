@@ -22,7 +22,7 @@ struct StoriesList: View {
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar{
                     ToolbarItem(placement: .principal){
-                        Text("Narraciones:")
+                        Text("Narrations:")
                             .foregroundStyle(.white.opacity(0.9))
                             .font(.largeTitle)
                             .fontDesign(.monospaced)
