@@ -57,6 +57,7 @@ struct FeelSelector: View {
                             .font(.title)
                             .fontDesign(.monospaced)
                             .fontWeight(.medium)
+                            
                     }
                     ToolbarItem(placement: .topBarTrailing) {
                         NavigationLink {
